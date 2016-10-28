@@ -15,3 +15,4 @@ required:
   - _choo.yaml
   - _gitignore
   - _package.json
+  - _editorconfig
