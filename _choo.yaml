@@ -1,4 +1,17 @@
 projectName: <%= projectName %>
 template:
-  name: choo-cli
-  source: choo-cli
+  url: https://github.com/trainyard/template-basic
+  name: template-basic
+page:
+  path: views
+  present: true
+element:
+  path: elements
+  present: true
+model:
+  path: models
+  present: true
+required:
+  - _choo.yaml
+  - _gitignore
+  - _package.json
