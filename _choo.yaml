@@ -2,15 +2,16 @@ projectName: <%= projectName %>
 template:
   url: https://github.com/trainyard/template-basic
   name: template-basic
-page:
-  path: views
-  present: true
-element:
-  path: elements
-  present: true
-model:
-  path: models
-  present: true
+generators:
+  page:
+    src: .generators/page.js
+    target: pages
+  element:
+    src: .generators/page.js
+    target: elements
+  model:
+    src: .generators/page.js
+    target: models
 required:
   - _choo.yaml
   - _gitignore
