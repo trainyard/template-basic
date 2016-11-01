@@ -7,10 +7,10 @@ generators:
     src: .generators/page.js
     target: pages
   element:
-    src: .generators/page.js
+    src: .generators/element.js
     target: elements
   model:
-    src: .generators/page.js
+    src: .generators/model.js
     target: models
 required:
   - _choo.yaml
