@@ -16,7 +16,7 @@ module.exports = {
     }
     */
   },
-  subscriptions: [
+  subscriptions: {
     // asynchronous read-only operations that don't modify state directly.
     // Can call actions. Signature of (send, done).
     /*
@@ -24,5 +24,5 @@ module.exports = {
       // do stuff
     }
     */
-  ]
+  }
 }
