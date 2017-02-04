@@ -1,4 +1,4 @@
-# <%= projectName %> [![built with choo v3](https://img.shields.io/badge/built%20with%20choo-v3-ffc3e4.svg?style=flat-square)](https://github.com/yoshuawuyts/choo)
+# <%= projectName %> [![built with choo v4](https://img.shields.io/badge/built%20with%20choo-v4-ffc3e4.svg?style=flat-square)](https://github.com/yoshuawuyts/choo)
 
 Choo-cli created a directory structure that [we've found to be optimal](https://yoshuawuyts.gitbooks.io/choo/content/guides/designing-for-reusability.html) for slim
 applications and reusability.
