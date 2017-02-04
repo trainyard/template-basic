@@ -24,7 +24,7 @@ module.exports = {
     /*
     checkStuff: function (send, done) {
       setInterval(function () {
-        send('<%= name %>:update, data, function (err) {
+        send('update', data, function (err) {
           if (err) return done(err)
         })
       }, 1000)

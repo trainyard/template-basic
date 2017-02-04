@@ -25,7 +25,7 @@ const <%= name %> = {
     /*
     checkStuff: function (send, done) {
       setInterval(function () {
-        send('update', data, function (err) {
+        send('<%= name %>:update', data, function (err) {
           if (err) return done(err)
         })
       }, 1000)
