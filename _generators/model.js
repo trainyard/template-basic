@@ -6,7 +6,7 @@ const <%= name %> = {
   },
   reducers: {
     /* synchronous operations that modify state. Triggered by actions. Signature of (data, state). */
-    // update: function (state, data) => {
+    // update: function (state, data) {
     //   return { title: data.value }
     // }
   },
@@ -14,7 +14,7 @@ const <%= name %> = {
     // asynchronous operations that don't modify state directly.
     // Triggered by actions, can call actions. Signature of (data, state, send, done)
     /*
-    myEffect: function (state, data, send, done) => {
+    myEffect: function (state, data, send, done) {
       // do stuff
     }
     */
