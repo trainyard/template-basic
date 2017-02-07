@@ -12,7 +12,7 @@ const <%= name %> = {
   },
   effects: {
     // asynchronous operations that don't modify state directly.
-    // Triggered by actions, can call actions. Signature of (data, state, send, done)
+    // Triggered by actions, can call actions. Signature of (state, data, send, done)
     /*
     myEffect: function (state, data, send, done) {
       // do stuff
