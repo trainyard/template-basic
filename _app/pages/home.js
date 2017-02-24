@@ -11,7 +11,7 @@ module.exports = function (state, prev, send) {
     </main>
   `
 
-  function update(e) {
+  function update (e) {
     send('update', e.target.value)
   }
 }
