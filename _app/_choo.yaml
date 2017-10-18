@@ -9,9 +9,6 @@ generators:
   element:
     src: .generators/element.js
     target: elements
-  model:
-    src: .generators/model.js
-    target: models
 required:
   - _choo.yaml
   - _gitignore
