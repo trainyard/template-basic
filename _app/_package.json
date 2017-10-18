@@ -4,7 +4,7 @@
   "description": "Created with choo-cli",
   "main": "client.js",
   "scripts": {
-    "start": "bankai client.js -p 8080 --open",
+    "start": "bankai start client.js",
     "build:prod": "bankai build client.js dist/",
     "lint": "standard --verbose | snazzy",
     "test": "npm run lint"
@@ -16,7 +16,7 @@
     "choo": "^4.1.0"
   },
   "devDependencies": {
-    "bankai": "^5.3.0",
+    "bankai": "^9.0.0-rc7",
     "snazzy": "^6.0.0",
     "standard": "^8.6.0"
   }
