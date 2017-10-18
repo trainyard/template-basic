@@ -10,7 +10,7 @@ generators:
     src: .generators/element.js
     target: elements
   store:
-    src: ./generators/store.js
+    src: .generators/store.js
     target: stores
 required:
   - _choo.yaml
