@@ -1,4 +1,4 @@
-# <%= projectName %> [![built with choo v4](https://img.shields.io/badge/built%20with%20choo-v4-ffc3e4.svg?style=flat-square)](https://github.com/yoshuawuyts/choo)
+# <%= projectName %>
 
 Choo-cli created a directory structure that [we've found to be optimal](https://yoshuawuyts.gitbooks.io/choo/content/guides/designing-for-reusability.html) for slim
 applications and reusability.
@@ -8,7 +8,7 @@ assets/        images and fonts, if you have any
 elements/      standalone application-specific elements
 lib/           generalized components, should be moved out of project later
 pages/         views that are directly mounted on the router
-scripts/       shell scripts, to be interfaced with through `npm scripts`
+stores/        stores that are used in pages and elements
 client.js      main application entry; programmatic manifest file
 package.json   manifest file
 ```
@@ -24,6 +24,11 @@ $ choo generate page my-page
 Elements
 ```bash
 $ choo generate element my-element
+```
+
+Stores
+```bash
+$ choo generate store my-store
 ```
 
 ## npm scripts
