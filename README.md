@@ -2,8 +2,6 @@
 
 The default template for [choo-cli](https://github.com/trainyard/choo-cli)
 
-> Updated to work with choo 4
-
 ## Create a new template
 
 To create a new template

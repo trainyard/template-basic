@@ -1,10 +1,12 @@
 const choo = require('choo')
 const app = choo()
 
-app.model(require('./models/app'))
+app.use(require('./stores/home'))
+app.route('/', require('./pages/home'))
 
-app.router(['/', require('./pages/home')])
-
-const tree = app.start()
-
-document.body.appendChild(tree)
+// Support for Server-Side Rendering
+if (module.parent) {
+  module.exports = app
+} else {
+  app.mount('body')
+}

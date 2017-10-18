@@ -7,7 +7,6 @@ applications and reusability.
 assets/        images and fonts, if you have any
 elements/      standalone application-specific elements
 lib/           generalized components, should be moved out of project later
-models/        choo models
 pages/         views that are directly mounted on the router
 scripts/       shell scripts, to be interfaced with through `npm scripts`
 client.js      main application entry; programmatic manifest file
@@ -20,11 +19,6 @@ For example you can generate
 Pages
 ```bash
 $ choo generate page my-page
-```
-
-Models
-```bash
-$ choo generate model my-model
 ```
 
 Elements
